@@ -6,7 +6,7 @@ import com.ort.class_navigation.entities.User
 
 class MainActivity : AppCompatActivity() {
 
-    private val user :
+    val user :
         User(id:1, name: "Martin", lastName: "Corizzo", email: "@gmail.com", password:"1234")
 
     override fun onCreate(savedInstanceState: Bundle?) {
